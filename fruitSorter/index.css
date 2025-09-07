@@ -1,18 +1,62 @@
 body {
     padding: 40px;
     background: whitesmoke;
-    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+
+    /* Flexbox centering */
+    display: flex;
+    flex-direction: column;   /* Stack elements vertically */
+    justify-content: center;  /* Center vertically */
+    align-items: center;      /* Center horizontally */
+    min-height: 100vh;        /* Take full viewport height */
+    margin: 0;
 }
 
 #apple-shelf {
+    width: 400px; 
+    min-height: 50px;
     background: lightcoral;
     border-radius: 10px;
     height: 30px;
     margin: 10px 0;
+    align-content: center;
+    font-size: 30px;
+    justify-content: center;  
+     display: flex;
 }
 
 #orange-shelf {
+    min-height: 50px;
+    width: 400px;
     background: lightsalmon;
     border-radius: 10px;
     height: 30px;
+        font-size: 30px;
+    justify-content: center;  
+     display: flex;
+}
+
+button {
+    margin: 20px;
+    cursor: pointer;
+    border: 0;
+    padding: 8px 16px;
+    border-radius: 10px;
+    background: #e98a1d;
+    color: white;
+    font-family: inherit;
+    font-size: 20px;
+}
+#original-shelf {
+    width: 400px;
+    height: 60px;
+    background: lightgray;
+    border-radius: 10px;
+    margin: 10px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+    font-size: 30px;
 }
