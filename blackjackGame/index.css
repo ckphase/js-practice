@@ -5,20 +5,20 @@ body{
     color: white;
     justify-content: center; /* center horizontally */
     align-items: center;     /* center vertically */
-    margin: 10px auto;  
-     display: flex;              /* make body a flex container */
+    margin: 8px auto;  
+    display: flex;              /* make body a flex container */
     justify-content: center;    /* center horizontally */
     align-items: center;        /* center vertically */
-    height: 100vh;              /* full screen height */
     margin: 0;  
+    height: 90vh;
 }
 h1{
     color: goldenrod;
-    font-size: 50px;
+    font-size: 60px;
 }
 p{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
 }
 #message-el{
     font-style: italic;
@@ -26,8 +26,8 @@ p{
 button {
     display: block;         
     color: #016f32;
-    font-size: 20px;
-    width: 200px;
+    font-size: 25px;
+    width: 250px;
     background-color: goldenrod;
     border: none;
     padding: 10px 10px;            
@@ -42,8 +42,9 @@ button:hover{
     background-color: rgb(0, 0, 0);
 }
 .container{
-    border: 3px solid rgb(24, 19, 19);
-    width: 300px;
+    border: 4px solid rgb(24, 19, 19);
+    min-width: 380px;
+    min-height: 530px;
     padding: 20px;             /* optional: add some padding */
     background: rgba(58, 59, 52, 0.1); /* optional: semi-transparent bg */
     border-radius: 10px; 
