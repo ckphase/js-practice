@@ -8,6 +8,14 @@ let messageEl = document.getElementById("message-el")
 let sumEl = document.querySelector("#sum-el")
 let cardsEl = document.querySelector("#cards-el")
 
+let player = {
+    name: "Jim",
+    chips: 145
+}
+
+let playerEl = document.getElementById("player-el")
+playerEl.textContent = player.name + ": $" + player.chips
+
 // random number generation 
 function getRandomCard(){
     let randomNumber = Math.floor(Math.random()*13)+1
@@ -20,7 +28,6 @@ function getRandomCard(){
     } else {
         return randomNumber
     }
-
 }
 
 function startGame(){

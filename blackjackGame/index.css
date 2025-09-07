@@ -6,12 +6,19 @@ body{
     justify-content: center; /* center horizontally */
     align-items: center;     /* center vertically */
     margin: 10px auto;  
+     display: flex;              /* make body a flex container */
+    justify-content: center;    /* center horizontally */
+    align-items: center;        /* center vertically */
+    height: 100vh;              /* full screen height */
+    margin: 0;  
 }
 h1{
     color: goldenrod;
+    font-size: 50px;
 }
 p{
     font-weight: bold;
+    font-size: 20px;
 }
 #message-el{
     font-style: italic;
@@ -19,14 +26,25 @@ p{
 button {
     display: block;         
     color: #016f32;
-    width: 150px;
+    font-size: 20px;
+    width: 200px;
     background-color: goldenrod;
     border: none;
-    padding: 5px 0;            
+    padding: 10px 10px;            
     font-weight: bold;
     border-radius: 2px;
-    margin: 4px auto;   
+    margin: 5px auto;   
     text-align: center;     
     cursor: pointer;           
 }
-
+button:hover{
+    color: yellow;
+    background-color: rgb(0, 0, 0);
+}
+.container{
+    border: 3px solid rgb(24, 19, 19);
+    width: 300px;
+    padding: 20px;             /* optional: add some padding */
+    background: rgba(58, 59, 52, 0.1); /* optional: semi-transparent bg */
+    border-radius: 10px; 
+}
