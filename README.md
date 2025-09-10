@@ -18,12 +18,12 @@ A beginner-friendly card game simulation inspired by Blackjack.
 - Learnings: `arrays`, `conditional statements`, `random numbers`.
 
 ### 3. Chrome Extension  
-[View Project](https://js-practice-extension.vercel.app/)  
+[View Project](https://js-practice-bm4j.vercel.app/)  
 A Chrome extension for practicing JavaScript with real-world integration.  
 - Learnings: `browser APIs`, `manifest.json`, `extension setup`.
 
 ### 4. Linkio Mobile App  
-[View Project](https://js-practice-mobile.vercel.app/)  
+[View Project](https://urliockphase.netlify.app/)  
 A mobile-friendly app for managing and saving links.  
 - Learnings: `responsive design`, `local storage`, `modular JS`.
 
@@ -45,15 +45,6 @@ Sort fruits into respective shelves based on type.
 [View Project](https://js-practice-eovz.vercel.app/)  
 A basic calculator that performs addition, subtraction, multiplication, and division on two numbers.  
 - Learnings: `functions`, `basic arithmetic`, `event-driven programming`.
-
----
-
-## Repo Stats  
-
-![Repo Stars](https://img.shields.io/github/stars/ckphase/js-practice?style=flat-square)  
-![Forks](https://img.shields.io/github/forks/ckphase/js-practice?style=flat-square)  
-![Last Commit](https://img.shields.io/github/last-commit/ckphase/js-practice?style=flat-square)  
-![Repo Size](https://img.shields.io/github/repo-size/ckphase/js-practice?style=flat-square)  
 
 ---
 
